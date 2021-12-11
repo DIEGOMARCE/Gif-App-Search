@@ -1,0 +1,32 @@
+  <h5>
+    <style>
+      p.one {
+        border-style: dotted;
+  border-width: 2px;
+      }
+    </style>
+    <p class="one"> Bienvenidos a mi aplicacion, los invito a usar mi buscador de Gifs.</p>
+  </h5>
+   <input
+  type="text"  
+   
+  class="form-control" 
+  placeholder="Escriba acá algún nombre o personaje que quiera buscar"
+  (keyup.enter)="buscar( )"
+  #txtBuscar> 
+  
+
+  <style> 
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      background-color: #3CBC8D;
+      color: white;
+    }
+    </style>
+  
+  
+    
